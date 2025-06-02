@@ -1,0 +1,15 @@
+[project]
+name = "pyTrainingLoad"
+version = "0.1.0"
+description = "Calculation of training load from heart rate and acceleration"
+authors = [{ name = "Jan Christian Brønd", email = "jcb@video4coach.com" }]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/jbrond/pyTrainingLoad"  # Valgfrit
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

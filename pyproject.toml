@@ -11,6 +11,11 @@ dependencies = [
     "pandas"
 ]
 
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"pyTrainingLoad" = ["exampledata/*"]
 
 [project.urls]
 Homepage = "https://github.com/jbrond/pyTrainingLoad"  # Valgfrit

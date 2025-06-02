@@ -5,7 +5,7 @@ description = "Calculation of training load from heart rate and acceleration"
 authors = [{ name = "Jan Christian Brønd", email = "jcb@video4coach.com" }]
 readme = "README.md"
 requires-python = ">=3.7"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 dependencies = [
     "numpy",
     "pandas"

@@ -9,7 +9,7 @@ dependencies = [
     "numpy",
     "pandas"
 ]
-license-files = ["LICEN[CS]E*", "vendored/licenses/*.txt", "AUTHORS.md"]
+license-files = ["LICENSE"]
 
 [tool.setuptools]
 include-package-data = true
